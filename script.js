@@ -11,12 +11,7 @@ let lineActive = 0;
 next.addEventListener('click', () => {
     currentActive++
     lineActive++
-    if (currentActive > circle.length){
-        currentActive = circle.length
-    }
-    if(lineActive > line.length){
-        lineActive = line.length
-    }
+    
     update()
 })
 
